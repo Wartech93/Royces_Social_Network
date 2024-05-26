@@ -25,6 +25,7 @@ const thoughtSchema = new Schema(
     toJSON: {
       getters: true,
     },
+    versionKey: false
   }
 );
 
